@@ -300,7 +300,7 @@ class FachadaBiblioteca:
         usuario = self.sistema_usuarios.crear_usuario(nombre, email)
         
         # Enviar email de bienvenida
-        asunto = "Bienvenido a la Biblioteca Digital"
+        asunto = "Bienvenido a la Biblioteca Digital ITM"
         contenido = (
             f"Hola {nombre},\n\n"
             f"Te damos la bienvenida a nuestra Biblioteca Digital. "
@@ -410,7 +410,7 @@ class FachadaBiblioteca:
         
         return contador_notificaciones
 
-# Ejemplo de uso
+# Usage
 if __name__ == "__main__":
     # Crear fachada
     biblioteca = FachadaBiblioteca()
